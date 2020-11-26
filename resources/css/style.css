@@ -99,7 +99,7 @@ body {
     text-align: center;
 }
 
-.header__a:hover {
+.header__a:active {
     color: rgba(202, 149, 4, 0.9);
 }
 
@@ -139,7 +139,7 @@ body {
     font-weight: 700;
     border-radius: 5px;
     margin: 0 1rem;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
 }
 
@@ -188,7 +188,7 @@ body {
     overflow: scroll;
 }
 
-.sidebar__h2 {
+.sidebar__h3.-sectionTitle {
     font-size: 2rem;
     color: rgba(44, 161, 192, 0.8);
     margin: 1rem;
@@ -208,6 +208,10 @@ body {
     border-radius: 5px;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
+}
+
+.sidebar__div:hover {
+    color: rgba(44, 161, 192, 0.8);
 }
 
 .sidebar__div.color {

@@ -11,9 +11,11 @@ const h1s = document.querySelectorAll('h1');
 const h2s = document.querySelectorAll('h2');
 const ps = document.querySelectorAll('p');
 const links = document.querySelectorAll('a');
+const spans = document.querySelectorAll('span');
 const icons = document.querySelectorAll('i');
 const labels = document.querySelectorAll('label');
 const inputs = document.querySelectorAll('input');
+const buttons = document.querySelectorAll('button');
 const forms = document.querySelectorAll('form');
 let stylesArray;
 
@@ -55,10 +57,12 @@ function addListeners() {
     h2s.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
     ps.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
     links.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
+    spans.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
     icons.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
     labels.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
     inputs.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
-    forms.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
+    buttons.forEach(elem => elem.addEventListener('mouseover', getTargetStyles));
+    forms.forEach(elem => elem.addEventListener('mouseenter', getTargetStyles));
 }
 
 addListeners();
