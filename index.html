@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design System</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/03f6bda350.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <nav class="header__nav">
+                <a class="header__a" href="#">ROOMS</a>
+                <a class="header__a" href="#">DINING</a>
+                <a class="header__a" href="#">EVENTS</a>
+                <a class="header__a" href="#">GALLERY</a>
+                <a class="header__a" href="#">CONTACT</a>
+            </nav>
+        </header>
+        <h1 class="main__h1">Grand Celeste Hotel</h1>
+        <h2 class="main__h2">Luxury Redefined</h2>
+        <form method="post" action="" class="form" role="presentation">
+            <div class="form__div" role="presentation">
+                <label for="rooms" class="form__label">Rooms</label>
+                <input type="number" id="rooms" name="rooms" min="1" max="10" class="form__input" required>
+            </div>
+            <div class="form__div" role="presentation">
+                <label for="beds" class="form__label">Beds</label>
+                <input type="number" id="beds" name="beds" min="1" max="4" class="form__input" required>
+            </div>
+            <div class="form__div" role="presentation">
+                <label for="nights" class="form__label">Nights</label>
+                <input type="number" id="nights" name="nights" min="1" max="30" class="form__input" required>
+            </div>
+            <div class="form__div" role="presentation">
+                <label for="guests" class="form__label">Guests</label>
+                <input type="number" id="guests" name="guests" min="1" max="10" class="form__input" required>
+            </div>
+            <div class="form__div" role="presentation">
+                <label for="email" class="form__label">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter email address" class="form__input" required>
+            </div>
+            <div class="form__div" role="presentation">
+                <input type="submit" value="BOOK NOW" class="form__submit" role="button">
+            </div>
+        </form>
+        <section class="offerings">
+            <div class="offerings_div" role="presentation">
+                <i class="fas fa-bed fa-2x offerings__i"></i>
+                <p class="offerings__p">Stay</p>
+            </div>
+            <div class="offerings_div" role="presentation">
+                <i class="fas fa-swimming-pool fa-2x offerings__i"></i>
+                <p class="offerings__p">Relax</p>
+            </div>
+            <div class="offerings_div" role="presentation">
+                <i class="fas fa-wine-glass-alt fa-2x offerings__i"></i>
+                <p class="offerings__p">Dine</p>
+            </div>
+            <div class="offerings_div" role="presentation">
+                <i class="fas fa-route fa-2x offerings__i"></i>
+                <p class="offerings__p">Explore</p>
+            </div>
+            <div class="offerings_div" role="presentation">
+                <p class="offerings__p"><strong>Price From</strong></p>
+                <span class="offerings__span">$199</span>
+            </div>
+        </section>
+    </main>
+    <section class="sidebar">
+        <section class="sidebar__section">
+            <h3 class="sidebar__h3">Colors</h3>
+        </section>
+        <section class="sidebar__section">
+            <h3 class="sidebar__h3">Fonts</h3>
+        </section>
+        <section class="sidebar__section">
+            <h3 class="sidebar__h3">Text Styles</h3>
+        </section>
+        <section class="sidebar__section">
+            <h3 class="sidebar__h3">Box Properties</h3>
+        </section>
+        <section class="sidebar__section">
+            <h3 class="sidebar__h3">Layout</h3>
+        </section>
+    </section>
+</body>
+</html>

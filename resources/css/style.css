@@ -1,0 +1,156 @@
+/* Fonts */
+
+@font-face { /* Source uispace.net */
+    font-family: Zefani;
+    src: url(../fonts/ZefaniStencil.otf) format('opentype');
+}
+
+/* Universal Styles */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 2vmin;
+}
+
+body {
+    display: flex;
+}
+
+.main {
+    width: 80%;
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.3)), url(../images/modern-pool.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+}
+
+.main__h1 {
+    font-size: 4.5rem;
+    font-family: Zefani, serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    margin: 1rem 0;
+}
+
+.main__h2 {
+    font-size: 4rem;
+    font-family: 'Allura', cursive;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    margin: 1rem 0;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.header__a {
+    margin: 1rem 4rem;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Form */
+
+.form {
+    display: flex;
+    width: 60%;
+    background-color: rgba(17, 17, 17, 1);
+    opacity: 0.7;
+    padding: 1rem;
+    margin: 1rem 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    margin: 1rem 0;
+}
+
+.form__div {
+    margin: 0 0.1rem;
+}
+
+.form__label {
+    color: rgba(255, 255, 255, 1);
+}
+
+.form__input {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 90%;
+}
+
+.form__submit {
+    background-color: rgba(202, 149, 4, 0.9);
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+/* Offerings */
+
+.offerings {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 60%;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    border: 1px solid rgba(125, 125, 125, 1);
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+.offerings__i {
+    color: rgba(202, 149, 4, 0.9);
+    margin-bottom: 0.5rem;
+}
+
+.offerings__span {
+    color: rgba(202, 149, 4, 0.9);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 20%;
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.sidebar__section {
+    background-color: rgba(17, 17, 17, 0.5);
+    color: #fff;
+    margin: 2rem;
+}
