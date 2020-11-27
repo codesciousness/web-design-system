@@ -25,8 +25,8 @@
         <h2 class="main__h2">Luxury Redefined</h2>
         <form method="post" action="" class="form" role="presentation">
             <div class="form__div" role="presentation">
-                <label for="rooms" class="form__label">Rooms</label>
-                <input type="number" id="rooms" name="rooms" min="1" max="10" class="form__input" required>
+                <label for="rooms" class="form__label -first">Rooms</label>
+                <input type="number" id="rooms" name="rooms" min="1" max="10" class="form__input -first" required>
             </div>
             <div class="form__div" role="presentation">
                 <label for="beds" class="form__label">Beds</label>
@@ -49,23 +49,23 @@
             </div>
         </form>
         <section class="offerings">
-            <div class="offerings_div" role="presentation">
+            <div class="offerings__div" role="presentation">
                 <i class="fas fa-bed fa-2x offerings__i"></i>
                 <p class="offerings__p">Stay</p>
             </div>
-            <div class="offerings_div" role="presentation">
+            <div class="offerings__div" role="presentation">
                 <i class="fas fa-swimming-pool fa-2x offerings__i"></i>
                 <p class="offerings__p">Relax</p>
             </div>
-            <div class="offerings_div" role="presentation">
+            <div class="offerings__div" role="presentation">
                 <i class="fas fa-wine-glass-alt fa-2x offerings__i"></i>
                 <p class="offerings__p">Dine</p>
             </div>
-            <div class="offerings_div" role="presentation">
+            <div class="offerings__div" role="presentation">
                 <i class="fas fa-route fa-2x offerings__i"></i>
                 <p class="offerings__p">Explore</p>
             </div>
-            <div class="offerings_div" role="presentation">
+            <div id="price" class="offerings__div" role="presentation">
                 <p class="offerings__p"><strong>Price From</strong></p>
                 <span class="offerings__span">$199</span>
             </div>
@@ -73,55 +73,57 @@
     </main>
     <section class="sidebar">
         <h3 class="sidebar__h3 -sectionTitle">HOVER TO INSPECT STYLES</h3>
-        <section class="sidebar__section">
-            <h3 class="sidebar__h3">Element Name</h3>
-            <div id="name" class="sidebar__div">
-                default
-            </div>
-        </section>
-        <section class="sidebar__section">
-            <h3 class="sidebar__h3">Color</h3>
-            <div class="sidebar__div color">
-                <div id="color"></div>
-                <div id="colorName">default</div>
-            </div>
-        </section>
-        <section class="sidebar__section">
-            <h3 class="sidebar__h3">Font-family</h3>
-            <div id="fontFamily" class="sidebar__div">
-                default
-            </div>
-        </section>
-        <section class="sidebar__section">
-            <h3 class="sidebar__h3">Font-weight</h3>
-            <div id="fontWeight" class="sidebar__div">
-                default
-            </div>
-        </section>
-        <section class="sidebar__section">
-            <h3 class="sidebar__h3">Font-size</h3>
-            <div id="fontSize" class="sidebar__div">
-                default
-            </div>
-        </section>
-        <section class="sidebar__section">
-            <h3 class="sidebar__h3">Margin</h3>
-            <div id="margin" class="sidebar__div">
-                default
-            </div>
-        </section>
-        <section class="sidebar__section">
-            <h3 class="sidebar__h3">Padding</h3>
-            <div id="padding" class="sidebar__div">
-                default
-            </div>
-        </section>
-        <section class="sidebar__section">
-            <h3 class="sidebar__h3">Display</h3>
-            <div id="display" class="sidebar__div">
-                default
-            </div>
-        </section>
+        <div class="sidebar__div -flexContainer" role="presentation">
+            <section class="sidebar__section">
+                <h3 class="sidebar__h3">Element Name</h3>
+                <div id="name" class="sidebar__div">
+                    default
+                </div>
+            </section>
+            <section class="sidebar__section">
+                <h3 class="sidebar__h3">Color</h3>
+                <div class="sidebar__div color">
+                    <div id="color"></div>
+                    <div id="colorName">default</div>
+                </div>
+            </section>
+            <section class="sidebar__section">
+                <h3 class="sidebar__h3">Font-family</h3>
+                <div id="fontFamily" class="sidebar__div">
+                    default
+                </div>
+            </section>
+            <section class="sidebar__section">
+                <h3 class="sidebar__h3">Font-weight</h3>
+                <div id="fontWeight" class="sidebar__div">
+                    default
+                </div>
+            </section>
+            <section class="sidebar__section">
+                <h3 class="sidebar__h3">Font-size</h3>
+                <div id="fontSize" class="sidebar__div">
+                    default
+                </div>
+            </section>
+            <section class="sidebar__section">
+                <h3 class="sidebar__h3">Margin</h3>
+                <div id="margin" class="sidebar__div">
+                    default
+                </div>
+            </section>
+            <section class="sidebar__section">
+                <h3 class="sidebar__h3">Padding</h3>
+                <div id="padding" class="sidebar__div">
+                    default
+                </div>
+            </section>
+            <section class="sidebar__section">
+                <h3 class="sidebar__h3">Display</h3>
+                <div id="display" class="sidebar__div">
+                    default
+                </div>
+            </section>
+        </div>
     </section>
 </body>
 </html>
